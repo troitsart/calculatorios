@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83D6C3EF285F822B008517D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C3EE285F822B008517D1 /* AppDelegate.swift */; };
+		83D6C3F1285F822B008517D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C3F0285F822B008517D1 /* SceneDelegate.swift */; };
+		83D6C3F3285F822B008517D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C3F2285F822B008517D1 /* ViewController.swift */; };
+		83D6C3F6285F822B008517D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6C3F4285F822B008517D1 /* Main.storyboard */; };
+		83D6C3F8285F822C008517D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6C3F7285F822C008517D1 /* Assets.xcassets */; };
+		83D6C3FB285F822C008517D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6C3F9285F822C008517D1 /* LaunchScreen.storyboard */; };
+		83D6C406285F822C008517D1 /* keklolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C405285F822C008517D1 /* keklolTests.swift */; };
+		83D6C410285F822C008517D1 /* keklolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C40F285F822C008517D1 /* keklolUITests.swift */; };
+		83D6C412285F822C008517D1 /* keklolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6C411285F822C008517D1 /* keklolUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83D6C402285F822C008517D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D6C3E3285F822B008517D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D6C3EA285F822B008517D1;
+			remoteInfo = keklol;
+		};
+		83D6C40C285F822C008517D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83D6C3E3285F822B008517D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83D6C3EA285F822B008517D1;
+			remoteInfo = keklol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83D6C3EB285F822B008517D1 /* keklol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = keklol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D6C3EE285F822B008517D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		83D6C3F0285F822B008517D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		83D6C3F2285F822B008517D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		83D6C3F5285F822B008517D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83D6C3F7285F822C008517D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83D6C3FA285F822C008517D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83D6C3FC285F822C008517D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D6C401285F822C008517D1 /* keklolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keklolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D6C405285F822C008517D1 /* keklolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keklolTests.swift; sourceTree = "<group>"; };
+		83D6C40B285F822C008517D1 /* keklolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = keklolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83D6C40F285F822C008517D1 /* keklolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keklolUITests.swift; sourceTree = "<group>"; };
+		83D6C411285F822C008517D1 /* keklolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = keklolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83D6C3E8285F822B008517D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C3FE285F822C008517D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C408285F822C008517D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83D6C3E2285F822B008517D1 = {
+			isa = PBXGroup;
+			children = (
+				83D6C3ED285F822B008517D1 /* keklol */,
+				83D6C404285F822C008517D1 /* keklolTests */,
+				83D6C40E285F822C008517D1 /* keklolUITests */,
+				83D6C3EC285F822B008517D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83D6C3EC285F822B008517D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83D6C3EB285F822B008517D1 /* keklol.app */,
+				83D6C401285F822C008517D1 /* keklolTests.xctest */,
+				83D6C40B285F822C008517D1 /* keklolUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83D6C3ED285F822B008517D1 /* keklol */ = {
+			isa = PBXGroup;
+			children = (
+				83D6C3EE285F822B008517D1 /* AppDelegate.swift */,
+				83D6C3F0285F822B008517D1 /* SceneDelegate.swift */,
+				83D6C3F2285F822B008517D1 /* ViewController.swift */,
+				83D6C3F4285F822B008517D1 /* Main.storyboard */,
+				83D6C3F7285F822C008517D1 /* Assets.xcassets */,
+				83D6C3F9285F822C008517D1 /* LaunchScreen.storyboard */,
+				83D6C3FC285F822C008517D1 /* Info.plist */,
+			);
+			path = keklol;
+			sourceTree = "<group>";
+		};
+		83D6C404285F822C008517D1 /* keklolTests */ = {
+			isa = PBXGroup;
+			children = (
+				83D6C405285F822C008517D1 /* keklolTests.swift */,
+			);
+			path = keklolTests;
+			sourceTree = "<group>";
+		};
+		83D6C40E285F822C008517D1 /* keklolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				83D6C40F285F822C008517D1 /* keklolUITests.swift */,
+				83D6C411285F822C008517D1 /* keklolUITestsLaunchTests.swift */,
+			);
+			path = keklolUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83D6C3EA285F822B008517D1 /* keklol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D6C415285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklol" */;
+			buildPhases = (
+				83D6C3E7285F822B008517D1 /* Sources */,
+				83D6C3E8285F822B008517D1 /* Frameworks */,
+				83D6C3E9285F822B008517D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keklol;
+			productName = keklol;
+			productReference = 83D6C3EB285F822B008517D1 /* keklol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83D6C400285F822C008517D1 /* keklolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D6C418285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklolTests" */;
+			buildPhases = (
+				83D6C3FD285F822C008517D1 /* Sources */,
+				83D6C3FE285F822C008517D1 /* Frameworks */,
+				83D6C3FF285F822C008517D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D6C403285F822C008517D1 /* PBXTargetDependency */,
+			);
+			name = keklolTests;
+			productName = keklolTests;
+			productReference = 83D6C401285F822C008517D1 /* keklolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		83D6C40A285F822C008517D1 /* keklolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83D6C41B285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklolUITests" */;
+			buildPhases = (
+				83D6C407285F822C008517D1 /* Sources */,
+				83D6C408285F822C008517D1 /* Frameworks */,
+				83D6C409285F822C008517D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83D6C40D285F822C008517D1 /* PBXTargetDependency */,
+			);
+			name = keklolUITests;
+			productName = keklolUITests;
+			productReference = 83D6C40B285F822C008517D1 /* keklolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83D6C3E3285F822B008517D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					83D6C3EA285F822B008517D1 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					83D6C400285F822C008517D1 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83D6C3EA285F822B008517D1;
+					};
+					83D6C40A285F822C008517D1 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 83D6C3EA285F822B008517D1;
+					};
+				};
+			};
+			buildConfigurationList = 83D6C3E6285F822B008517D1 /* Build configuration list for PBXProject "keklol" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83D6C3E2285F822B008517D1;
+			productRefGroup = 83D6C3EC285F822B008517D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83D6C3EA285F822B008517D1 /* keklol */,
+				83D6C400285F822C008517D1 /* keklolTests */,
+				83D6C40A285F822C008517D1 /* keklolUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83D6C3E9285F822B008517D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D6C3FB285F822C008517D1 /* LaunchScreen.storyboard in Resources */,
+				83D6C3F8285F822C008517D1 /* Assets.xcassets in Resources */,
+				83D6C3F6285F822B008517D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C3FF285F822C008517D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C409285F822C008517D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83D6C3E7285F822B008517D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D6C3F3285F822B008517D1 /* ViewController.swift in Sources */,
+				83D6C3EF285F822B008517D1 /* AppDelegate.swift in Sources */,
+				83D6C3F1285F822B008517D1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C3FD285F822C008517D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D6C406285F822C008517D1 /* keklolTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83D6C407285F822C008517D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83D6C412285F822C008517D1 /* keklolUITestsLaunchTests.swift in Sources */,
+				83D6C410285F822C008517D1 /* keklolUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83D6C403285F822C008517D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D6C3EA285F822B008517D1 /* keklol */;
+			targetProxy = 83D6C402285F822C008517D1 /* PBXContainerItemProxy */;
+		};
+		83D6C40D285F822C008517D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83D6C3EA285F822B008517D1 /* keklol */;
+			targetProxy = 83D6C40C285F822C008517D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83D6C3F4285F822B008517D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D6C3F5285F822B008517D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83D6C3F9285F822C008517D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83D6C3FA285F822C008517D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83D6C413285F822C008517D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		83D6C414285F822C008517D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83D6C416285F822C008517D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = keklol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		83D6C417285F822C008517D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = keklol/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		83D6C419285F822C008517D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keklol.app/keklol";
+			};
+			name = Debug;
+		};
+		83D6C41A285F822C008517D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/keklol.app/keklol";
+			};
+			name = Release;
+		};
+		83D6C41C285F822C008517D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keklol;
+			};
+			name = Debug;
+		};
+		83D6C41D285F822C008517D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = troitsart.keklolUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = keklol;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83D6C3E6285F822B008517D1 /* Build configuration list for PBXProject "keklol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D6C413285F822C008517D1 /* Debug */,
+				83D6C414285F822C008517D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D6C415285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D6C416285F822C008517D1 /* Debug */,
+				83D6C417285F822C008517D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D6C418285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D6C419285F822C008517D1 /* Debug */,
+				83D6C41A285F822C008517D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83D6C41B285F822C008517D1 /* Build configuration list for PBXNativeTarget "keklolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83D6C41C285F822C008517D1 /* Debug */,
+				83D6C41D285F822C008517D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83D6C3E3285F822B008517D1 /* Project object */;
+}
